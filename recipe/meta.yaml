@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/duartegroup/autodE/archive/v{{ version }}.tar.gz
-  sha256: 9c2b17aa5f34ec039f4a404dcb6491186eea61a2610edb33be848be1a54b2de4
+  sha256: c66c9da615cb50ef05df64e09f8baa514caa9ec7fecd7990555949b19baaf431
 
 build:
   number: 2
