@@ -15,8 +15,8 @@ Documentation: https://duartegroup.github.io/autodE/
 
 autodE is a Python package designed for the rapid generation of chemical
 reaction (free) energy profiles from SMILES or xyz geometries of reactants
-and products. It makes use of external electronic packages to perform geometry
-optimisations and single point energy and force evaluations.
+and products. It makes use of external electronic structure packages to
+perform geometry optimisations, single point energy and force evaluations.
 
 
 Current build status
