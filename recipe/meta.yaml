@@ -16,6 +16,8 @@ build:
 
 requirements:
   build:
+    script_env:
+      - CXXFLAGS: "-O3"
     - {{ compiler('cxx') }}
   host:
     - python
