@@ -25,7 +25,7 @@ requirements:
     - python
     - rdkit
     - numpy
-    - networkx
+    - networkx 2.5.*
     - matplotlib-base
     - scipy
 
