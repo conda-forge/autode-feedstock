@@ -1,5 +1,5 @@
 {% set name = "autode" %}
-{% set version = "1.0.3" %}
+{% set version = "1.0.4" %}
 
 package:
   name: {{ name|lower }}
@@ -7,10 +7,10 @@ package:
 
 source:
   url: https://github.com/duartegroup/autodE/archive/v{{ version }}.tar.gz
-  sha256: 3c256eb43d3751893724a2e98a52103742363d36ca83311232f210b35c3c9a7f
+  sha256: 65aa7a913eddb202ae12ebaafff1c5d9ba09a0a9ea698d321356ea7289d8eb8f
 
 build:
-  number: 6
+  number: 0
   skip: True  # [py<37 or win]
 
 requirements:
