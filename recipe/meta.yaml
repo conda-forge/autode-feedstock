@@ -1,5 +1,5 @@
 {% set name = "autode" %}
-{% set version = "1.1.0" %}
+{% set version = "1.1.1" %}
 
 package:
   name: {{ name|lower }}
@@ -7,11 +7,11 @@ package:
 
 source:
   url: https://github.com/duartegroup/autodE/archive/v{{ version }}.tar.gz
-  sha256: 9263472f45eb525b01a2a04bc4c9221fcbe23406f4cddbb36c4b8c7013ba03df
+  sha256: 006d1dc437057e421cd29827823cd5dac96bcc8866d526f139095bbb6d026831
 
 build:
   number: 0
-  skip: True  # [py<37 or win]
+  skip: true  # [py<37 or win]
 
 requirements:
   build:
@@ -38,7 +38,7 @@ about:
   license: MIT
   license_family: MIT
   license_file: LICENSE.md
-  summary: 'Automated reaction profile generation'
+  summary: Automated reaction profile generation
   description: |
     autodE is a Python package designed for the rapid generation of chemical
     reaction (free) energy profiles from SMILES or xyz geometries of reactants
