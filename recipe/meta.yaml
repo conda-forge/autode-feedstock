@@ -10,7 +10,7 @@ source:
   sha256: a39ffc17a0d0e7604b591860491cccb65bd85c5f0c628c516b0bb659e42635eb
 
 build:
-  number: 1
+  number: 2
   skip: true  # [py<37 or win]
 
 requirements:
@@ -25,7 +25,6 @@ requirements:
     - python
     - rdkit
     - numpy
-    - boost-cpp 1.74.0 *_5
     - networkx 2.5.*
     - matplotlib-base
     - scipy
