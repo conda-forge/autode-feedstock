@@ -7,10 +7,10 @@ package:
 
 source:
   url: https://github.com/duartegroup/autodE/archive/refs/tags/v{{ version }}.tar.gz
-  sha256: a39ffc17a0d0e7604b591860491cccb65bd85c5f0c628c516b0bb659e42635eb
+  sha256: d299acdd0f76b8f45cccb3fd22f52f0b18dc0d768e85d1b710da7d18a1255c31
 
 build:
-  number: 2
+  number: 3
   skip: true  # [py<37 or win]
 
 requirements:
