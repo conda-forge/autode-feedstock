@@ -1,11 +1,11 @@
-About autode
-============
+About autode-feedstock
+======================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/autode-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/duartegroup/autodE
 
 Package license: MIT
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/autode-feedstock/blob/main/LICENSE.txt)
 
 Summary: Automated reaction profile generation
 
