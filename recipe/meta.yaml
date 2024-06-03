@@ -1,5 +1,5 @@
 {% set name = "autode" %}
-{% set version = "1.4.2" %}
+{% set version = "1.4.3" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,8 @@ package:
 
 source:
   url: https://github.com/duartegroup/autodE/archive/refs/tags/v{{ version }}.tar.gz
-  sha256: bf61a3bd9b1f75560ae069ff3bc8082aeebc9abf1d5ce9fa8c64249a8ef8c3d8
+  # curl -sL https://github.com/duartegroup/autodE/archive/refs/tags/v{{ version }}.tar.gz | openssl sha256
+  sha256: efa8b8c71d0a876ab600b9acb5f08d25b620a40cf3f459f75466a199d9f40f16
 
 build:
   number: 0
